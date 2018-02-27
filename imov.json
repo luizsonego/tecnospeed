@@ -3,7 +3,7 @@
       [
         {
           "codigo": "001",
-          "tp_bem": "Apartamento",
+          "tp_bem": "Sobrado",
           "endereco": "Rua Maringá, 45",
           "bairro": "Centro",
           "cidade": "Maringa",
@@ -18,11 +18,11 @@
               "cozinhas" : "1",
               "garagens" : "2"
           },
-          "imagem":"https://www.brconsorcios.com.br/arquivos/imgsite/creditos/consorcio-de-imovel-04.jpg"
+          "imagem":"https://www.brconsorcios.com.br/arquivos/imgsite/creditos/consorcio-de-imovel-03.jpg"
         },
         {
           "codigo": "002",
-          "tp_bem": "Apartamento",
+          "tp_bem": "Casa",
           "endereco": "Rua Maringá, 45",
           "bairro": "Centro",
           "cidade": "Maringa",
@@ -41,8 +41,8 @@
         },
         {
           "codigo": "003",
-          "tp_bem": "Apartamento",
-          "endereco": "Rua Maringá, 45",
+          "tp_bem": "Casa",
+          "endereco": "Rua Sarandi, 88",
           "bairro": "Centro",
           "cidade": "Maringa",
           "uf": "PR",
@@ -60,6 +60,63 @@
         },
         {
           "codigo": "004",
+          "tp_bem": "Comercial",
+          "endereco": "Rua Pauiçandu, 45",
+          "bairro": "Centro",
+          "cidade": "Maringa",
+          "uf": "PR",
+          "area_util": "150",
+          "area_total": "200",
+          "valor": "300000",
+          "finalidade": "venda",
+          "benfeitoria": {
+              "quartos" : "3",
+              "salas" : "1",
+              "cozinhas" : "1",
+              "garagens" : "2"
+          },
+          "imagem":"https://www.brconsorcios.com.br/arquivos/imgsite/creditos/consorcio-de-imovel-06.jpg"
+        },
+        {
+          "codigo": "001",
+          "tp_bem": "Casa",
+          "endereco": "Rua Londrina, 145",
+          "bairro": "Centro",
+          "cidade": "Maringa",
+          "uf": "PR",
+          "area_util": "150",
+          "area_total": "200",
+          "valor": "300000",
+          "finalidade": "venda",
+          "benfeitoria": {
+              "quartos" : "3",
+              "salas" : "1",
+              "cozinhas" : "1",
+              "garagens" : "2"
+          },
+          "imagem":"https://www.brconsorcios.com.br/arquivos/imgsite/creditos/consorcio-de-imovel-04.jpg"
+        },
+        {
+          "codigo": "002",
+          "tp_bem": "Lançamento",
+          "endereco": "Rua Marialva, 45",
+          "bairro": "Centro",
+          "cidade": "Maringa",
+          "uf": "PR",
+          "area_util": "150",
+          "area_total": "200",
+          "valor": "300000",
+          "finalidade": "venda",
+          "benfeitoria": {
+              "quartos" : "3",
+              "salas" : "1",
+              "cozinhas" : "1",
+              "garagens" : "2"
+          },
+          "imagem":"https://www.brconsorcios.com.br/arquivos/imgsite/creditos/consorcio-de-imovel-02.jpg"
+        },
+        {
+          "codigo": "003",
           "tp_bem": "Apartamento",
           "endereco": "Rua Maringá, 45",
           "bairro": "Centro",
@@ -75,7 +132,26 @@
               "cozinhas" : "1",
               "garagens" : "2"
           },
-          "imagem":"https://www.brconsorcios.com.br/arquivos/imgsite/creditos/consorcio-de-imovel-04.jpg"
+          "imagem":"https://www.brconsorcios.com.br/arquivos/imgsite/creditos/consorcio-de-imovel-05.jpg"
+        },
+        {
+          "codigo": "004",
+          "tp_bem": "Construção",
+          "endereco": "Rua Maringá, 45",
+          "bairro": "Centro",
+          "cidade": "Maringa",
+          "uf": "PR",
+          "area_util": "150",
+          "area_total": "200",
+          "valor": "300000",
+          "finalidade": "venda",
+          "benfeitoria": {
+              "quartos" : "3",
+              "salas" : "1",
+              "cozinhas" : "1",
+              "garagens" : "2"
+          },
+          "imagem":"https://www.brconsorcios.com.br/arquivos/imgsite/creditos/consorcio-de-imovel-01.jpg"
         }
       ]
 }
