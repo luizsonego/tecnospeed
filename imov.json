@@ -18,7 +18,7 @@
               "cozinhas" : "1",
               "garagens" : "2"
           },
-          "imagem":"https://www.brconsorcios.com.br/arquivos/imgsite/creditos/consorcio-de-imovel-03.jpg"
+          "imagem":"image/imovel-03.jpg"
         },
         {
           "codigo": "002",
@@ -37,7 +37,7 @@
               "cozinhas" : "1",
               "garagens" : "2"
           },
-          "imagem":"https://www.brconsorcios.com.br/arquivos/imgsite/creditos/consorcio-de-imovel-04.jpg"
+          "imagem":"image/imovel-04.jpg"
         },
         {
           "codigo": "003",
@@ -56,7 +56,7 @@
               "cozinhas" : "1",
               "garagens" : "2"
           },
-          "imagem":"https://www.brconsorcios.com.br/arquivos/imgsite/creditos/consorcio-de-imovel-04.jpg"
+          "imagem":"image/imovel-04.jpg"
         },
         {
           "codigo": "004",
@@ -75,7 +75,7 @@
               "cozinhas" : "1",
               "garagens" : "2"
           },
-          "imagem":"https://www.brconsorcios.com.br/arquivos/imgsite/creditos/consorcio-de-imovel-06.jpg"
+          "imagem":"image/imovel-06.jpg"
         },
         {
           "codigo": "001",
@@ -94,7 +94,7 @@
               "cozinhas" : "1",
               "garagens" : "2"
           },
-          "imagem":"https://www.brconsorcios.com.br/arquivos/imgsite/creditos/consorcio-de-imovel-04.jpg"
+          "imagem":"image/imovel-04.jpg"
         },
         {
           "codigo": "002",
@@ -113,7 +113,7 @@
               "cozinhas" : "1",
               "garagens" : "2"
           },
-          "imagem":"https://www.brconsorcios.com.br/arquivos/imgsite/creditos/consorcio-de-imovel-02.jpg"
+          "imagem":"image/imovel-02.jpg"
         },
         {
           "codigo": "003",
@@ -132,7 +132,7 @@
               "cozinhas" : "1",
               "garagens" : "2"
           },
-          "imagem":"https://www.brconsorcios.com.br/arquivos/imgsite/creditos/consorcio-de-imovel-05.jpg"
+          "imagem":"image/imovel-05.jpg"
         },
         {
           "codigo": "004",
@@ -151,7 +151,7 @@
               "cozinhas" : "1",
               "garagens" : "2"
           },
-          "imagem":"https://www.brconsorcios.com.br/arquivos/imgsite/creditos/consorcio-de-imovel-01.jpg"
+          "imagem":"image/imovel-01.jpg"
         }
       ]
 }
