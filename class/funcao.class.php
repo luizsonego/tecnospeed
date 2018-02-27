@@ -9,7 +9,7 @@ class Site {
 		$arquivo = file_get_contents('imov.json');
         $json = json_decode($arquivo);
         foreach($json->Imoveis as $key => $registro):
-            echo "<a href=''>";
+            echo "<a href='#imovel-".$registro->codigo."'>";
             echo '<div class="imovel item">
                     <div class="imovel-imagem">
                         <img src="'.$registro->imagem.'" alt="">
@@ -21,9 +21,43 @@ class Site {
                     </div>
                 </div>';
             echo "</a>";
+
+        echo '<div id="imovel-'.$registro->codigo.'" class="modalDialog">';
+        echo '    <div> <a href="#close" title="Close" class="close">X</a>';
+        echo '          <h1 class="text-center">'.$registro->tp_bem.' para '.$registro->finalidade.'</h1>';
+        echo '          <div class="img-imovel"> <img src="'.$registro->imagem.'"></div> ';
+        echo '        <p>Tipo de imóvel: '.$registro->tp_bem.'</p>';
+        echo '        <p>Endereço: '.$registro->endereco.'</p>';
+        echo '        <p>Bairro: '.$registro->bairro.'</p>';
+        echo '        <p>Cidade/UF: '.$registro->cidade.'/'.$registro->uf.'</p>';
+        echo '        <p>Àrea útil: '.$registro->area_util.'</p>';
+        echo '        <p>Àrea total: '.$registro->area_total.'</p>';
+        echo '        <p>Valor: '.$registro->valor.'</p>';
+        echo '        <p>Benfeitorias:</p>';
+        echo '        <p>Quarto: '.$registro->benfeitoria->quartos.'</p>';
+        echo '        <p>Sala: '.$registro->benfeitoria->salas.'</p>';
+        echo '        <p>Cozinha: '.$registro->benfeitoria->cozinhas.'</p>';
+        echo '        <p>Garagem: '.$registro->benfeitoria->garagens.'</p>';
+        echo '    </div>';
+        echo '</div>';
+
         endforeach;
         
 	}
+
+//     <a href="#openModal">Open Modal</a>
+
+// <div id="openModal" class="modalDialog">
+//     <div> <a href="#close" title="Close" class="close">X</a>
+
+//           <h2>Modal Box</h2>
+
+//         <p>This is a sample modal box that can be created using the powers of CSS3.</p>
+//         <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+//     </div>
+// </div>
+
+
 
     function box(){
 

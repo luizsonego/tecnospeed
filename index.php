@@ -19,12 +19,11 @@ $index = new Site();
 <body>
     <nav id="menu">
         <ul class="flex-container row">
-            <li class="item"><img src="image/logo.png" ></li>
-            <li class="item"></li>
-			<li class="item"><a href="#home">Home</a></li>
-            <li class="item"><a href="#item1">ITEM 1</a></li>
-            <li class="item"><a href="#item2">ITEM 2</a></li>
-            <li class="item"><a href="#item3">ITEM 3</a></li>
+          <li class="item"><img src="image/logo.png" ></li>
+          <li class="item"></li>
+			    <li class="item"><a href="#home">HOME</a></li>
+          <li class="item"><a href="#item1">IMOVEIS</a></li>
+          <li class="item"><a href="#item2">BOX</a></li>
         </ul>
     </nav>
 
@@ -48,6 +47,7 @@ $index = new Site();
 		</div>
 	</section>
 
+
 	<section class="" id="item2">
 		<div class="flex-container row">
 			<?php echo $index->box(); ?>
@@ -65,7 +65,7 @@ $index = new Site();
 </div>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
   $(document).ready(function() {
     function filterPath(string) {
       return string
@@ -89,7 +89,7 @@ $index = new Site();
       }
     });
   });
-</script>
+</script> -->
 <script type="text/javascript">
 jQuery(function () {
   jQuery(window).scroll(function () {
