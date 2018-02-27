@@ -19,7 +19,7 @@ $index = new Site();
 <body>
     <nav id="menu">
         <ul class="flex-container row">
-            <li class="item"><img src="image/logobat.png" ></li>
+            <li class="item"><img src="image/logo.png" ></li>
             <li class="item"></li>
 			<li class="item"><a href="#home">Home</a></li>
             <li class="item"><a href="#item1">ITEM 1</a></li>
