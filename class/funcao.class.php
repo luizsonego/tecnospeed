@@ -26,38 +26,29 @@ class Site {
         echo '    <div> <a href="#close" title="Close" class="close">X</a>';
         echo '          <h1 class="text-center">'.$registro->tp_bem.' para '.$registro->finalidade.'</h1>';
         echo '          <div class="img-imovel"> <img src="'.$registro->imagem.'"></div> ';
+        echo '        <div class="desc-imovel">';
         echo '        <p>Tipo de imóvel: '.$registro->tp_bem.'</p>';
         echo '        <p>Endereço: '.$registro->endereco.'</p>';
         echo '        <p>Bairro: '.$registro->bairro.'</p>';
         echo '        <p>Cidade/UF: '.$registro->cidade.'/'.$registro->uf.'</p>';
         echo '        <p>Àrea útil: '.$registro->area_util.'</p>';
         echo '        <p>Àrea total: '.$registro->area_total.'</p>';
-        echo '        <p>Valor: '.$registro->valor.'</p>';
-        echo '        <p>Benfeitorias:</p>';
-        echo '        <p>Quarto: '.$registro->benfeitoria->quartos.'</p>';
-        echo '        <p>Sala: '.$registro->benfeitoria->salas.'</p>';
-        echo '        <p>Cozinha: '.$registro->benfeitoria->cozinhas.'</p>';
-        echo '        <p>Garagem: '.$registro->benfeitoria->garagens.'</p>';
+        echo '        <p>Valor R$: '.$registro->valor.'</p>';
+
+        echo '      <ul>Benfeitorias:
+                        <li>Quarto: '.$registro->benfeitoria->quartos.'</li>
+                        <li>Sala: '.$registro->benfeitoria->salas.'</li>
+                        <li>Cozinha: '.$registro->benfeitoria->cozinhas.'</li>
+                        <li>Garagem: '.$registro->benfeitoria->garagens.'</li>
+                    </ul>';
+        
+        echo '    </div>';
         echo '    </div>';
         echo '</div>';
 
         endforeach;
         
 	}
-
-//     <a href="#openModal">Open Modal</a>
-
-// <div id="openModal" class="modalDialog">
-//     <div> <a href="#close" title="Close" class="close">X</a>
-
-//           <h2>Modal Box</h2>
-
-//         <p>This is a sample modal box that can be created using the powers of CSS3.</p>
-//         <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
-//     </div>
-// </div>
-
-
 
     function box(){
 
