@@ -78,7 +78,7 @@
           "imagem":"image/imovel-06.jpg"
         },
         {
-          "codigo": "001",
+          "codigo": "005",
           "tp_bem": "Casa",
           "endereco": "Rua Londrina, 145",
           "bairro": "Centro",
@@ -97,7 +97,7 @@
           "imagem":"image/imovel-04.jpg"
         },
         {
-          "codigo": "002",
+          "codigo": "006",
           "tp_bem": "Lançamento",
           "endereco": "Rua Marialva, 45",
           "bairro": "Centro",
@@ -116,7 +116,7 @@
           "imagem":"image/imovel-02.jpg"
         },
         {
-          "codigo": "003",
+          "codigo": "007",
           "tp_bem": "Apartamento",
           "endereco": "Rua Maringá, 45",
           "bairro": "Centro",
@@ -135,7 +135,7 @@
           "imagem":"image/imovel-05.jpg"
         },
         {
-          "codigo": "004",
+          "codigo": "008",
           "tp_bem": "Construção",
           "endereco": "Rua Maringá, 45",
           "bairro": "Centro",
