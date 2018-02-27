@@ -1,0 +1,81 @@
+{
+  "Imoveis":
+      [
+        {
+          "codigo": "001",
+          "tp_bem": "Apartamento",
+          "endereco": "Rua Maringá, 45",
+          "bairro": "Centro",
+          "cidade": "Maringa",
+          "uf": "PR",
+          "area_util": "150",
+          "area_total": "200",
+          "valor": "300000",
+          "finalidade": "venda",
+          "benfeitoria": {
+              "quartos" : "3",
+              "salas" : "1",
+              "cozinhas" : "1",
+              "garagens" : "2"
+          },
+          "imagem":"https://www.brconsorcios.com.br/arquivos/imgsite/creditos/consorcio-de-imovel-04.jpg"
+        },
+        {
+          "codigo": "002",
+          "tp_bem": "Apartamento",
+          "endereco": "Rua Maringá, 45",
+          "bairro": "Centro",
+          "cidade": "Maringa",
+          "uf": "PR",
+          "area_util": "150",
+          "area_total": "200",
+          "valor": "300000",
+          "finalidade": "venda",
+          "benfeitoria": {
+              "quartos" : "3",
+              "salas" : "1",
+              "cozinhas" : "1",
+              "garagens" : "2"
+          },
+          "imagem":"https://www.brconsorcios.com.br/arquivos/imgsite/creditos/consorcio-de-imovel-04.jpg"
+        },
+        {
+          "codigo": "003",
+          "tp_bem": "Apartamento",
+          "endereco": "Rua Maringá, 45",
+          "bairro": "Centro",
+          "cidade": "Maringa",
+          "uf": "PR",
+          "area_util": "150",
+          "area_total": "200",
+          "valor": "300000",
+          "finalidade": "venda",
+          "benfeitoria": {
+              "quartos" : "3",
+              "salas" : "1",
+              "cozinhas" : "1",
+              "garagens" : "2"
+          },
+          "imagem":"https://www.brconsorcios.com.br/arquivos/imgsite/creditos/consorcio-de-imovel-04.jpg"
+        },
+        {
+          "codigo": "004",
+          "tp_bem": "Apartamento",
+          "endereco": "Rua Maringá, 45",
+          "bairro": "Centro",
+          "cidade": "Maringa",
+          "uf": "PR",
+          "area_util": "150",
+          "area_total": "200",
+          "valor": "300000",
+          "finalidade": "venda",
+          "benfeitoria": {
+              "quartos" : "3",
+              "salas" : "1",
+              "cozinhas" : "1",
+              "garagens" : "2"
+          },
+          "imagem":"https://www.brconsorcios.com.br/arquivos/imgsite/creditos/consorcio-de-imovel-04.jpg"
+        }
+      ]
+}
